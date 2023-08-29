@@ -119,7 +119,7 @@ full_preds.write.mode("overwrite").saveAsTable("main.I_LOCAL.zos97_pyspark_predi
 
 # COMMAND ----------
 
-sas_results = spark.table(" main.I_LOCAL.zos97_sas_predict")
+sas_results = spark.table("main.I_LOCAL.zos97_sas_predict")
 
 # COMMAND ----------
 
